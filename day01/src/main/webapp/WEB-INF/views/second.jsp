@@ -2,17 +2,15 @@
   Created by IntelliJ IDEA.
   User: mnew0
   Date: 2025-03-06
-  Time: 오후 3:34
+  Time: 오후 4:27
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>Title</title>
-  </head>
-  <body>
-    <h1>Main Page</h1>
-    <%--  127.0.0.1/second  --%>
-    <h2><a href="/second">Second</a></h2>
-  </body>
+</head>
+<body>
+  <h1>Second Page</h1>
+</body>
 </html>
