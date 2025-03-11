@@ -16,7 +16,7 @@
   let d;  // undefined
 
   let date = new Date();
-  //alert(date)
+  alert(date)
 
   //alert(typeof(date));
 </script>

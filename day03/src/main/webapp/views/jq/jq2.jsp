@@ -1,24 +1,16 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--Center Page--%>
-<style>
-  #result{
-    border: 2px solid deepskyblue;
-    width: 300px;
-    margin-top: 30px;
-  }
-</style>
-
 <script>
-  const js4 = {
+  const jq2 = {
     init:function(){
       // 버튼을 클릭하면 getData를 호출 한다.
       // 버튼에 이벤트를 붙인다
-      let aclick = document.querySelector('#aclick');
-      aclick.onclick = () => {
-        this.getData();
-      }
+
+      $('#aclick').click(()=>{
+        this.getData()
+      });
     },
+
     getData:function(){
       const data = [
         {rank:Math.floor(Math.random()*10), title:'미국주식', updown:'up'},
@@ -32,6 +24,7 @@
     },
     display:function(data){
       let result = '';
+
       for(var a of data){
         result += '<h4>';
         result += a.rank+' '+a.title+' '+a.updown;
@@ -41,13 +34,15 @@
     }
   }
 
-  window.onload = function(){
-    js4.init();
-  }
+  $().ready(function (){
+    jq2.init();
+  });
 </script>
 
 <div class="col-sm-10">
-  <h2>JavaScript4 Page</h2>
+  <h2>jQuery2 Page</h2>
+
   <button type="button" class="btn btn-primary" id="aclick">GET DATA</button>
   <div id="result"></div>
+
 </div>

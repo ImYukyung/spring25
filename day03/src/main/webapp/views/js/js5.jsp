@@ -3,11 +3,28 @@
 <%--Center Page--%>
 
 <script>
+  const js5 = {
+    init:function(){
+      let aclick = document.querySelector('#aclick');
+      aclick.onclick = function(){
+        let email = document.querySelector('#email_data').innerText;
+        let id = email.substring(0,5);
+        document.querySelector('#txt_id').innerHTML = id;
 
+        let domain = email.substring(email.indexOf('@')+1, email.indexOf('.'))
+        document.querySelector('#email_data').innerText = domain;
+      }
+    }
+  }
+  window.onload = function(){
+    js5.init();
+  }
 </script>
 
 <div class="col-sm-10">
   <h2>JavaScript5 Page</h2>
-  <h5>자바스크립트5</h5>
-
+  <button type="button" class="btn btn-primary" id="aclick">Button</button>
+  <h4 id="email_data">jmlee@tonesol.com</h4>
+  <h5 id="txt_id"></h5> <!-- jmlee 출력-->
+  <h5 id="txt_domain"></h5> <!-- tonesol 출력-->
 </div>

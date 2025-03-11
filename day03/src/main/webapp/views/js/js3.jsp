@@ -3,11 +3,25 @@
 <%--Center Page--%>
 
 <script>
+    function clickBtn(){
+        alert('click button');
+    }
+
+    window.onload = function (){
+      let aclick = document.querySelector('#aclick');
+      aclick.onclick = function () {
+        let c = confirm('이동하시겠습니까?');
+        if(c){
+          location.href = 'http://www.naver.com';
+        }
+      }
+    }
 
 </script>
 
 <div class="col-sm-10">
   <h2>JavaScript3 Page</h2>
   <h5>자바스크립트3</h5>
-
+  <button id="btn" onclick="clickBtn()">Button</button>
+  <a href="#" id="aclick">Click</a>
 </div>
