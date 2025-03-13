@@ -4,22 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c16aa85-5860-4e11-ada1-13e1dc55fb9f" name="Changes" comment="2025.3.6&#10;second page 수정">
-      <change afterPath="$PROJECT_DIR$/day01ws/src/main/java/com/mc/Day01wsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01ws/src/main/java/com/mc/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01ws/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01ws/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01ws/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01ws/src/main/webapp/WEB-INF/views/second.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01ws/src/main/webapp/WEB-INF/views/third.jsp" afterDir="false" />
+    <list default="true" id="8c16aa85-5860-4e11-ada1-13e1dc55fb9f" name="Changes" comment="2025.3.11&#10;수업 종료">
+      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/mc/controllerrest/AjaxRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/java/com/mc/dto/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/jq4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/jq5.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/jq6.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/day03/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/mc/controller/JQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/mc/controller/JQController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/java/com/mc/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/java/com/mc/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/webapp/views/ajax/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/webapp/views/ajax/center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/webapp/views/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/webapp/views/center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/jq2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/jq2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/jq3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/jq3.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/day03/src/main/webapp/views/jq/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring25/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring25/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/day00">
@@ -29,6 +37,18 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/day01ws">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/day02">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/day02ws1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/day02ws2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/day03">
       <ProjectState />
     </projectState>
   </component>
@@ -41,21 +61,33 @@
         <task path="$PROJECT_DIR$/day01ws">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/day02">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/day02ws1">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/day02ws2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/day03">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="day01ws" type="f1a62948:ProjectNode" />
+                <item name="day03" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="day01ws" type="f1a62948:ProjectNode" />
+                <item name="day03" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="day01ws" type="f1a62948:ProjectNode" />
+                <item name="day03" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
@@ -69,12 +101,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -95,18 +134,30 @@
   <component name="ProjectId" id="2tvmyetVV0nxPqleNDgVOqy3VVy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.sample.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build day01.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.C:/Users/mnew0/OneDrive/Desktop/spring25/day01ws/build.gradle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.C:/Users/mnew0/OneDrive/Desktop/spring25/day02ws1 [bootRun].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Day01ApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Day01wsApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Day02ApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Day02ws1ApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Day02ws2ApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Day03ApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.day01 [bootRun].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.day01.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.day01ws [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.day02 [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.day02ws1 [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.day02ws2 [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.day03 [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.day03 [bootTestRun].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -115,21 +166,35 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.Day01Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ykim&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mnew0/OneDrive/Desktop/spring25/day03/src/main/webapp/views/jq&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mnew0\OneDrive\Desktop\spring25\day03\src\main\webapp\views\jq" />
+      <recent name="C:\Users\mnew0\OneDrive\Desktop\spring25\day03\src\main\webapp\views" />
+      <recent name="C:\Users\mnew0\OneDrive\Desktop\spring25\day03\src\main\webapp\views\chart" />
+      <recent name="C:\Users\mnew0\OneDrive\Desktop\spring25\day03\src\main\webapp\views\map" />
+      <recent name="C:\Users\mnew0\OneDrive\Desktop\spring25\day03\src\main\webapp\views\ajax" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mnew0\OneDrive\Desktop\spring25\day03\src\main\webapp" />
+      <recent name="C:\Users\mnew0\OneDrive\Desktop\spring25\day01\src" />
       <recent name="C:\Users\mnew0\OneDrive\Desktop\spring25\day01ws\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mc.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -142,35 +207,11 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Day01ApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.day03 [bootRun]">
+    <configuration name="day02 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/day01" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;day01.Day01ApplicationTests.contextLoads&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="day01 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/day01" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/day02" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -189,10 +230,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="day01ws [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="day02ws1 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/day01ws" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/day02ws1" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -201,6 +242,72 @@
         <option name="taskNames">
           <list>
             <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="day02ws2 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/day02ws2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="day03 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/day03" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="day03 [bootTestRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/day03" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootTestRun" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -215,6 +322,14 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="day00.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mc.day00.Day00Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day01Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="day01.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mc.Day01Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,11 +350,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="day02.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mc.Day02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day02ws1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="day02ws1.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mc.Day02ws1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day02ws2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="day02ws2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mc.Day02ws2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day03Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="day03.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mc.Day03Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.day01ws [bootRun]" />
-        <item itemvalue="Gradle.day01 [bootRun]" />
-        <item itemvalue="Gradle.Day01ApplicationTests.contextLoads" />
+        <item itemvalue="Gradle.day03 [bootRun]" />
+        <item itemvalue="Gradle.day02 [bootRun]" />
+        <item itemvalue="Gradle.day03 [bootTestRun]" />
+        <item itemvalue="Gradle.day02ws1 [bootRun]" />
+        <item itemvalue="Gradle.day02ws2 [bootRun]" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +412,17 @@
       <workItem from="1741243406557" duration="6237000" />
       <workItem from="1741249717698" duration="4012000" />
       <workItem from="1741253783039" duration="769000" />
+      <workItem from="1741255959576" duration="562000" />
+      <workItem from="1741305625265" duration="24988000" />
+      <workItem from="1741385633152" duration="536000" />
+      <workItem from="1741565007651" duration="14543000" />
+      <workItem from="1741583532663" duration="1080000" />
+      <workItem from="1741584698946" duration="36000" />
+      <workItem from="1741584758078" duration="69000" />
+      <workItem from="1741651898182" duration="1078000" />
+      <workItem from="1741653088792" duration="24199000" />
+      <workItem from="1741737198581" duration="26791000" />
+      <workItem from="1741824136549" duration="4338000" />
     </task>
     <task id="LOCAL-00001" summary="2025.3.6&#10;최초등록">
       <option name="closed" value="true" />
@@ -288,16 +448,160 @@
       <option name="project" value="LOCAL" />
       <updated>1741246788261</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2025.3.6&#10;오후 과제 완료">
+      <option name="closed" value="true" />
+      <created>1741305999318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741305999318</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2025.3.7&#10;오후 과제 완료">
+      <option name="closed" value="true" />
+      <created>1741306378032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741306378032</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2025.3.7&#10;오후 과제 완료">
+      <option name="closed" value="true" />
+      <created>1741307007137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741307007137</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2025.3.7&#10;오전 수업">
+      <option name="closed" value="true" />
+      <created>1741307237179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741307237179</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2025.3.7&#10;오전 수업">
+      <option name="closed" value="true" />
+      <created>1741307319883</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741307319883</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2025.3.7&#10;test3">
+      <option name="closed" value="true" />
+      <created>1741308156574</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741308156574</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2025.3.7&#10;test3">
+      <option name="closed" value="true" />
+      <created>1741308224395</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741308224395</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2025.3.7&#10;test4">
+      <option name="closed" value="true" />
+      <created>1741309829753</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741309829754</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2025.3.7&#10;TEST2">
+      <option name="closed" value="true" />
+      <created>1741310017096</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741310017096</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2025.3.7&#10;abcdef">
+      <option name="closed" value="true" />
+      <created>1741310562260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741310562260</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2025.3.7&#10;오전 수업">
+      <option name="closed" value="true" />
+      <created>1741324636937</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741324636937</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2025.3.7&#10;오후 수업 완료">
+      <option name="closed" value="true" />
+      <created>1741385861578</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741385861578</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2025.3.10">
+      <option name="closed" value="true" />
+      <created>1741660787243</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741660787243</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2025.3.11&#10;수업 종료">
+      <option name="closed" value="true" />
+      <created>1741683316235</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741683316235</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2025.3.6&#10;최초등록" />
     <MESSAGE value="2025.3.6&#10;second page 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.3.6&#10;second page 수정" />
+    <MESSAGE value="2025.3.6&#10;오후 과제 완료" />
+    <MESSAGE value="2025.3.7&#10;오후 과제 완료" />
+    <MESSAGE value="2025.3.7&#10;test3" />
+    <MESSAGE value="2025.3.7&#10;test4" />
+    <MESSAGE value="2025.3.7&#10;TEST2" />
+    <MESSAGE value="2025.3.7&#10;abcdef" />
+    <MESSAGE value="2025.3.7&#10;오전 수업" />
+    <MESSAGE value="2025.3.7&#10;오후 수업 완료" />
+    <MESSAGE value="2025.3.10" />
+    <MESSAGE value="2025.3.11&#10;수업 종료" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.3.11&#10;수업 종료" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/day02ws2/src/main/webapp/WEB-INF/views/index.jsp</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

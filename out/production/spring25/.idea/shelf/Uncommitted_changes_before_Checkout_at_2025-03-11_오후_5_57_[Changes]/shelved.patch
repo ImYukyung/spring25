@@ -1,0 +1,21 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Gradle Imported\" enabled=\"true\">\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <processorPath useClasspath=\"false\">\r\n          <entry name=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar\" />\r\n        </processorPath>\r\n        <module name=\"day02.main\" />\r\n        <module name=\"day02.test\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"day00\" target=\"17\" />\r\n      <module name=\"day00.main\" target=\"17\" />\r\n      <module name=\"day00.test\" target=\"17\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision b8e80c73f5105ea29d62f56821283d5a904e5376)
++++ b/.idea/compiler.xml	(date 1741683453791)
+@@ -8,8 +8,8 @@
+         <processorPath useClasspath="false">
+           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
+         </processorPath>
+-        <module name="day02.main" />
+-        <module name="day02.test" />
++        <module name="day02ws2.main" />
++        <module name="day02ws2.test" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel>

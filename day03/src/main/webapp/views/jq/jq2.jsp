@@ -24,25 +24,47 @@
     },
     display:function(data){
       let result = '';
-
-      for(var a of data){
-        result += '<h4>';
-        result += a.rank+' '+a.title+' '+a.updown;
-        result += '</h4>';
-      }
-      document.querySelector('#result').innerHTML = result;
+      $(data).each((index,item)=>{
+        result += '<tr>';
+        result += '<td>'+item.rank+'</td>'
+        result += '<td>'+item.title+'</td>'
+        result += '<td>'+item.updown+'</td>'
+        result += '</tr>';
+      });
+      $('#rank > tbody').html(result);
     }
   }
 
-  $().ready(function (){
+  $().ready(()=>{
     jq2.init();
   });
+
 </script>
+
+<style>
+  #aclick{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+</style>
 
 <div class="col-sm-10">
   <h2>jQuery2 Page</h2>
 
   <button type="button" class="btn btn-primary" id="aclick">GET DATA</button>
-  <div id="result"></div>
+  <table id="rank" class="table">
+    <thead class="thead-light">
+    <tr>
+      <th>RANK</th>
+      <th>TITLE</th>
+      <th>UPDOWN</th>
+    </tr>
+    </thead>
+    <tbody>
+
+
+
+    </tbody>
+  </table>
 
 </div>
